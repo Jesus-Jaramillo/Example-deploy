@@ -1,14 +1,12 @@
 import { BrowserRouter as Router } from 'react-router-dom'
 import './App.css'
-import CardCoffes from './components/Coffee-Cards'
-import Navigations from './routes/routes'
 
 function App() {
 
   return (
     <Router>
           <div>
-            <Navigations />
+            <h1>juegos</h1>
           </div>
     </Router>
   )
